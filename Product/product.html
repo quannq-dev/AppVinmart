@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm khuyến mãi</title>
+    <link rel="icon" type="image/x-icon" href="../imgae/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="./product.css">
+    <link rel="stylesheet" href="../css/reponsive.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="grid wide">
+            <nav class="header__navbar">
+                <a href="../index.html" class="header__logo">
+                    <img src="../imgae/logo.png" alt="" class="header__logo-img">
+                </a>
+                <div class="header__input">
+                    <input type="text" class="header__input-search" placeholder="Nhập tên sản phẩm,mã sản phẩm...">
+                    <i class="header_icon fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="header__list">
+                    <button class="header__list-link js-header__list-link">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Đăng nhập</span>
+                    </button>
+                    <a href="#" class="header__list-link">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <span>Giỏ hàng  </br> 0 sản phẩm</span>
+                    </a>
+                </div>             
+            </nav>
+        </div>
+    </header>
+        <nav class="header__navigation">
+            <div class="grid wide">
+                <div class="header__navigation-list">
+                    <div href="" class="header__list-left">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                        Danh mục sản phẩm
+
+                        <ul class="header_list-down">
+                            <li class="header_list-down-item">
+                               <a class="header_list-down-item-link" href="./Category/category.html"> Sản phẩm khuyến mại</a>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="">Rau - Củ - Trái cây</a>
+                                <div class="header_list-down-item-list">
+                                    <ul class="header_list-down-item-list-item">
+                                        <li class="header_list-down-item-list-item-code">Rau củ quả</li>
+                                        <li class="header_list-down-item-list-item-code">Trái cây</li>
+                                    </ul>
+                                    <img src="../imgae/d1.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="">Thịt - Trứng - Hải sản</a>
+                                <div class="header_list-down-item-list1">
+                                    <ul class="header_list-down-item-list-item1">
+                                        <li class="header_list-down-item-list-item-code1">Thịt</li>
+                                        <li class="header_list-down-item-list-item-code1">Trứng</li>
+                                        <li class="header_list-down-item-list-item-code1">Hải sản</li>
+                                    </ul>
+                                    <img src="../imgae/d2.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="">Thực phẩm chế biến</a>
+                                <div class="header_list-down-item-list2">
+                                    <ul class="header_list-down-item-list-item2">
+                                        <li class="header_list-down-item-list-item-code2">Thức ăn nấu sẵn</li>
+                                        <li class="header_list-down-item-list-item-code2">Bánh mì</li>
+                                        <li class="header_list-down-item-list-item-code2">Thịt luộc,súc xích,hàng chua</li>
+                                    </ul>
+                                    <img src="../imgae/d3.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                               <a class="header_list-down-item-link" href=""> Thực phẩm đông lạnh</a>
+                                <div class="header_list-down-item-list3">
+                                    <ul class="header_list-down-item-list-item3">
+                                        <li class="header_list-down-item-list-item-code3">Thịt nguội</li>
+                                        <li class="header_list-down-item-list-item-code3">Bánh bao,đậu hũ</li>
+                                        <li class="header_list-down-item-list-item-code3">Xúc xích,lạp xưởng</li>
+                                        <li class="header_list-down-item-list-item-code3">Thủy hản sản</li>
+                                        <li class="header_list-down-item-list-item-code3">Thực phẩm chế biến</li>
+                                        <li class="header_list-down-item-list-item-code3">Trái cây,Hoa quả</li>
+                                    </ul>
+                                    <img src="../imgae/d4.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="">Thực phẩm khô - Gia vị</a>
+                                <div class="header_list-down-item-list4">
+                                    <ul class="header_list-down-item-list-item4">
+                                        <li class="header_list-down-item-list-item-code4">Mì,Miến,Bánh đa,Nui</li>
+                                        <li class="header_list-down-item-list-item-code4">Gạo Nông sản khô</li>
+                                        <li class="header_list-down-item-list-item-code4">Dầu ăn gia vị các loại</li>
+                                        <li class="header_list-down-item-list-item-code4">Ngũ cốc,Yến mạch</li>
+                                        <li class="header_list-down-item-list-item-code4">Đồ hộp các loại</li>
+                                        <li class="header_list-down-item-list-item-code4">Rong biển,tảo biển</li>
+                                        <li class="header_list-down-item-list-item-code4">Các loại bột mì nấu ăn</li>
+                                        <li class="header_list-down-item-list-item-code4">Sữa đặc</li>
+                                    </ul>
+                                    <img src="../imgae/d5.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="">Bánh kẹo - Đồ ăn vặt</a>
+                                <div class="header_list-down-item-list5">
+                                    <ul class="header_list-down-item-list-item5">
+                                        <li class="header_list-down-item-list-item-code5">Bánh sốp,bánh quy</li>
+                                        <li class="header_list-down-item-list-item-code5">Kẹo,Chocolate</li>
+                                        <li class="header_list-down-item-list-item-code5">Hạt sấy khô</li>
+                                        <li class="header_list-down-item-list-item-code5">Trái cây sấy,ô mai</li>
+                                        <li class="header_list-down-item-list-item-code5">Hàng thời vụ</li>
+                                    </ul>
+                                    <img src="../imgae/d6.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="">Sữa - Sản phẩm từ sữa</a>
+                                <div class="header_list-down-item-list6">
+                                    <ul class="header_list-down-item-list-item6">
+                                        <li class="header_list-down-item-list-item-code6">Sữa tươi</li>
+                                        <li class="header_list-down-item-list-item-code6">Sữa hạt,sữa đậu</li>
+                                        <li class="header_list-down-item-list-item-code6">sữa bột các loại</li>
+                                        <li class="header_list-down-item-list-item-code6">Thức uống lúa mạch</li>
+                                        <li class="header_list-down-item-list-item-code6">Bơ, phô mai</li>
+                                        <li class="header_list-down-item-list-item-code6">Sữa chua</li>
+                                    </ul>
+                                    <img src="../imgae/d7.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="">Đồ uống - Giải khát</a>
+                                <div class="header_list-down-item-list11">
+                                    <ul class="header_list-down-item-list-item11">
+                                        <li class="header_list-down-item-list-item-code11">Thức ăn nấu sẵn</li>
+                                        <li class="header_list-down-item-list-item-code11">Bánh mì</li>
+                                        <li class="header_list-down-item-list-item-code11">Thịt luộc,súc xích,hàng chua</li>
+                                    </ul>
+                                    <img src="../imgae/d8.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="">Hóa mỹ phẩm</a>
+                                <div class="header_list-down-item-list8">
+                                    <ul class="header_list-down-item-list-item8">
+                                        <li class="header_list-down-item-list-item-code8">Bia, nước uống có cồn</li>
+                                        <li class="header_list-down-item-list-item-code8">Nước suối,nước ngọt</li>
+                                        <li class="header_list-down-item-list-item-code8">Cà phê,trà các loại</li>
+                                    </ul>
+                                    <img src="../imgae/d10.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="">Chăm sóc cá nhân</a>
+                                <div class="header_list-down-item-list9">
+                                    <ul class="header_list-down-item-list-item9">
+                                        <li class="header_list-down-item-list-item-code9">Chăm sóc tóc</li>
+                                        <li class="header_list-down-item-list-item-code9">chăm sóc da</li>
+                                        <li class="header_list-down-item-list-item-code9">Chăm sóc răng miệng</li>
+                                        <li class="header_list-down-item-list-item-code9">Chăm sóc phụ nữ</li>
+                                        <li class="header_list-down-item-list-item-code9">Khăn ướt,khăn giấy</li>
+                                        <li class="header_list-down-item-list-item-code9">Khẩu trang</li>
+                                    </ul>
+                                    <img src="../imgae/d9.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                               <a class="header_list-down-item-link" href=""> Chăm sóc mẹ và bé</a>
+                                <div class="header_list-down-item-list10">
+                                    <ul class="header_list-down-item-list-item10">
+                                        <li class="header_list-down-item-list-item-code10">Sữa bột,sữa đặc,dinh dưỡng trẻ em</li>
+                                        <li class="header_list-down-item-list-item-code10">Tã bỉnh các loại</li>
+                                        <li class="header_list-down-item-list-item-code10">Dồ dùng chăm sóc mẹ và bé</li>
+                                    </ul>
+                                    <img src="../imgae/d11.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <ul class="header__list-right">
+                        <li class="header__list-item">
+                            <a href="">
+                                <i class="fa-solid fa-angle-down"></i>
+                                Sản phẩm vừa xem
+                            </a>
+                    
+                        </li>
+                        <li class="header__list-item">
+                            <a href="">
+                                <i class="fa-solid fa-envelope"></i>
+                                Tin tức
+                            </a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="">
+                                <i class="fa-solid fa-headphones"></i>
+                                Tư vấn mua hàng
+
+                                <div class="header__list-item-dropdown">
+                                    <p>Mua online: <span>0335463797</span></p>
+                                    
+                                </div>
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div class="container container__mrgin">
+        <div class="grid wide">
+            <div class="container__wide">
+                <a href="../index.html">Trang chủ</a>
+                <a href="../Category/category.html">Sản phẩm khuyến mãi</a>
+                <a class="font">Rau củ quả</a>
+            </div>
+
+            <div class="container__inne-sp">
+                <div class="row">
+                    <div class="l-5">
+                        <div class="container__img">
+                            <img src="../imgae/Sp_khuyenmai/sp1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="l-7">
+                        <div class="container__sp-title">
+                            <h4 class="container__name">Nước giặt LIX đậm đặc 3.6kg/3,8kg</h4>
+                            <p class="container__heading">Hãy là người đầu tiên đánh giá sản phẩm này</p>
+                            <span>Thương hiệu: N/A</span> </br>
+                            <strong>SKU: 10192260</strong>
+
+                            <div class="container__price">
+                                <div class="container__price-span">
+                                    <span>Giá niêm yết</span>
+                                    <span>185.600đ</span>
+                                </div>
+                                <div class="container__price-sale">
+                                    <span>Giá Khuyến mái</span>
+                                    <span>135.000đ</span>
+                                </div>
+                                <div class="container__price-status">
+                                    <span>Trạng thái</span>
+                                    <span>Còn hàng</span>
+                                </div>
+                            </div>
+                            
+                            <div class="container__transport">
+                                <span>vận chuyển</span>
+                                <p>
+                                    Giao nhanh trong vòng 2-4 tiếng khi đơn hàng được xác nhận. Các đơn hàng đặt sau 18:00 sẽ được giao trước 12:00 sáng ngày hôm sau. Liên hệ hỗ trợ: 024 71066866
+                                </p>
+                            </div>
+
+                            <div class="container__amount">
+                                <span>Chọn số lượng</span>
+                                <button>-</button>
+                                <button>1</button>
+                                <button>+</button>
+                            </div>
+                            <div class="container__btnn">
+                                <button>Thêm vào giỏ hàng</button>
+                                <button>Mua ngay</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__describe-title">
+                <h3>Mô tả</h3>
+                <span>Thôg tin</span>
+            </div>
+            <div class="container__describe-1">
+                <div class="row">
+                    <div class="l-8">
+                       <div class="container__describe-heading">
+                        <span> <h4>Nước giặt LIX đậm đặc 3,8 kg:</h4>Nước giặt LIX đậm đặc 3,8 kg được sản xuất tại Việt Nam. Sản phẩm được đóng gói dạng can, mỗi can có khối lượng 3.8 kg. Nước giặt thích hợp cho cả giặt tay lẫn giặt máy.
+
+                            Nước giặt Lix với công thức đậm đặc gấp 2 lần, nhanh chóng đánh bay các vết bẩn cứng đầu, trả lại màu sắc tự nhiên cho sản phẩm. Kết hợp với hương thơm từ ngàn hoa giữ cho quần áo thơm mát dài lâu.
+                            
+                            Nước giặt LIX đậm đặc 3,8 kg sử dụng được trong cả nước lợ lẫn nước phèn. Sản phẩm thân thiện với làn da, không gây kích ứng và không làm phai màu quần áo, bảo vệ sợi vải hiệu quả.</span>
+                        <h4>Lưu ý:</h4>
+                        <i>–- Hạn sử dụng thực tế quý khách vui lòng xem trên bao bì.</i>
+                        <i>– Hình sản phẩm chỉ mang tính chất minh họa, hình thực tế bao bì của sản phẩm tùy thời điểm sẽ khác so với thực tế.</i>
+                       </div>
+                    </div>
+                    <div class="l-4">
+                        <div class="container__table">
+                            <table>
+                                <tr>
+                                  <th>Xuất xứ</th>
+                                  <td>Việt nam</td>
+                                </tr>
+                                <tr>
+                                  <th>Loại</th>
+                                  <td>Chai</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__Evaluate">
+                <h3>Đánh giá sản phẩm</h3>
+            </div>
+            <div class="container__Evaluate-sp">
+                <div class="row">
+                    <div class="l-4">
+                        <div class="container__Evaluate-sp-title">
+                            <h3>Nước giặt LIX đậm đặc 3.6kg/3,8kg</h3>
+                            <p>Điểm đánh giá trung bình</p>
+                            <span>0/5</span>
+                            <p>Hiện tại không có đánh giá nào</p>
+                        </div>
+                    </div>             
+                     <div class="l-4">
+                        <div class="container__Evaluate-start">
+                            <div class="container__Evaluate-start1">
+                                <label for="">5 <i class="fa-solid fa-star"></i></label>
+                                <div class="uni-progress--bar"></div>
+                                <span>0</span>
+                            </div>
+                        </div>
+                        <div class="container__Evaluate-start">
+                            <div class="container__Evaluate-start1">
+                                <label for="">5 <i class="fa-solid fa-star"></i></label>
+                                <div class="uni-progress--bar"></div>
+                                <span>0</span>
+                            </div>
+                        </div>
+                        <div class="container__Evaluate-start">
+                            <div class="container__Evaluate-start1">
+                                <label for="">5 <i class="fa-solid fa-star"></i></label>
+                                <div class="uni-progress--bar"></div>
+                                <span>0</span>
+                            </div>
+                        </div>
+                        <div class="container__Evaluate-start">
+                            <div class="container__Evaluate-start1">
+                                <label for="">5 <i class="fa-solid fa-star"></i></label>
+                                <div class="uni-progress--bar"></div>
+                                <span>0</span>
+                            </div>
+                        </div>
+                        <div class="container__Evaluate-start">
+                            <div class="container__Evaluate-start1">
+                                <label for="">5 <i class="fa-solid fa-star"></i></label>
+                                <div class="uni-progress--bar"></div>
+                                <span>0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l-4">
+                        <div class="container__Evaluate-btn">
+                            <p>Bạn đã dùng sản phẩm này</p>
+                            <button>Gửi đánh giá của bạn</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container__content">
+            <div class="grid wide">
+                <div class="row center">
+                    <div class="l-3">
+                        <div class="container__content-item">
+                            <img src="../imgae/162964655378716287682220181-1.png" alt="">
+                            <p>Sản phẩm khuyến mãi</p>
+                        </div>
+                    </div>
+                    <div class="l-3">
+                        <div class="container__content-item">
+                            <img src="../imgae/162964658411816287682628462-1.png" alt="">
+                            <p>Chất lượng cam kết</p>
+                        </div>
+                    </div>
+                    <div class="l-3">
+                        <div class="container__content-item">
+                            <img src="../imgae/162964661464516287682943943-1.png" alt="">
+                            <p>Dịch vụ vượt trội</p>
+                        </div>
+                    </div>
+                    <div class="l-3">
+                        <div class="container__content-item">
+                            <img src="../imgae/162964665580516292779811154-1.png" alt="">
+                            <p>Giao hàng nhanh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3">
+                   <div class="footer__content">
+                        <img width="200px" src="../imgae/logo_2-1024x510.png" alt="">
+                        <p>Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp VinCommerce
+                            MSDN: 0104918404 do Sở Kế hoạch và Đầu tư TP. Hà Nội cấp lần đầu ngày 20/09/2010
+                            Đăng ký thay đổi lần thứ 42 do Sở Kế hoạch Đầu tư TP. Hồ Chí Minh ngày 13/02/2020
+                        </p>
+                   </div>
+                </div>
+                <div class="col l-3">
+                    <div class="footer__content">
+                        <ul class="footer__content-list">
+                            <h4>Về chúng tôi</h4>
+                            <li class="footer__content-list-item">Giới thiệu về VinMart</li>
+                            <li class="footer__content-list-item">Danh sách cửa hàng</li>
+                            <li class="footer__content-list-item">Quản lý chất lượng</li>
+                            <li class="footer__content-list-item">Điều khoản và điều khoản giao dịch</li>
+                            <li class="footer__content-list-item">Chính sách bảo mật và chia sẻ thông tin</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3">
+                    <div class="footer__content">
+                        <ul class="footer__content-list">
+                            <h4>Hỗ trợ khách hàng</h4>
+                            <li class="footer__content-list-item">Trung tâm hỗ trợ khách hàng</li>
+                            <li class="footer__content-list-item"> Chính sách thanh toán</li>
+                            <li class="footer__content-list-item">Chính sách giao hàng</li>
+                            <li class="footer__content-list-item">Chính sách đổi trả</li>
+                            <li class="footer__content-list-item">Chính sách chiếu khấu ưu đãi mua sắm</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3">
+                    <div class="footer__content">
+                        <ul class="footer__content-list">
+                            <h4>Chăm sóc khách hàng</h4>
+                            <li class="footer__content-list-item">Mua Online: 0247 1066866</li>
+                            <li class="footer__content-list-item">Email: cskh@winmart.masangroup.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__title">
+            <div class="grid wide">
+                <div class="row">
+                    <div class=" col l-3">
+                       <div class="footer__title-heading">
+                            <h4>Trụ sở chính</h4>
+                            <p>Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp VinCommerce Tầng 5, Mplaza SaiGon, 39 Lê Duẩn, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh, Việt Nam.</p>
+                       </div>
+                    </div>
+                    <div class=" col l-4">
+                       <div class="footer__title-heading">
+                            <h4>Địa chỉ giao dịch Tp.HCM:</h4>
+                            <p>Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp VinCommerce Tầng 5, Mplaza SaiGon, 39 Lê Duẩn, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh.</p>
+                       </div>
+                    </div>
+                    <div class=" col l-4">
+                        <div class="footer__title-heading">
+                            <h4>Địa chỉ giao dịch Hà Nội:</h4>
+                            <p>Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp VinCommerce Tower 1, Times City, 458 Minh Khai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Thành phố Hà Nội.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer> 
+     <!-- end footer -->
+    <div class="affter">
+        <div></div>
+        <div class="affter__icon">
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+    </div>
+    <!-- modal login -->
+    <div class="modal js-modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body js-modal__body">
+            <div class="modal__inner">
+                <div class="modal__inner-heading">
+                    <h3 class="modal__title">Đăng nhập</h3>
+                    <span class="modal__span">Đăng ký</span>
+                </div>
+                <form action="">
+                    <label for="">Tên tài khoản hoặc địa chỉ email*</label>
+                    <input type="text" required placeholder="Nhập tài khoản...">
+                    <label for="">Mật khẩu*</label>
+                    <input type="text" required placeholder="Nhập mật khẩu...">
+                    <button class="btn btn-full">Đăng nhập</button>
+                </form>
+                <div class="checkbox">
+                    <div class="checkbox__left">
+                        <input type="checkbox" name="" id="">
+                        <p>Ghi nhớ mật khẩu</p>
+                    </div>
+                    <span>Quên mật khẩu?</span>
+                </div>
+                <button class="btn-x">x</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

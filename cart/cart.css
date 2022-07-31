@@ -1,0 +1,138 @@
+/* Sản phẩm */
+.container-cart ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.container-cart ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #999;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.container-cart .action-link {
+    background-color: #e35;
+}
+
+
+.container-cart-sp {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.container-cart-product img {
+    width: 150px;
+
+}
+
+.container-cart-product {
+    display: flex;
+    align-items: center;
+}
+
+.container-cart-product-heading h3{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.container-cart-product-heading span {
+    font-size: 1.4rem;
+    color: #e35;
+}
+
+.container-cart-product-heading span i {
+    color: black;
+}
+
+.container-cart-input {
+  margin-right: 50px;
+  display: flex;
+}
+
+.container-cart-input h3 {
+    font-size: 1.6rem;
+    margin-right: 10px;
+}
+
+.container-cart-input span {
+    text-decoration: line-through;
+    font-size: 1.3rem;
+}
+.container-cart-input i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.container-cart-input button {
+    padding: 10px 16px;
+    outline: none;
+    border: 1px solid;
+    background-color: rgb(241, 230, 230);
+}
+
+.container-cart-input button:nth-child(5) {
+    background-color: #fff;
+}
+
+.container-total {
+    background-color: #fff;
+    padding: 16px 10px;
+}
+
+.container-total-1 ,.container-total-2{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.container-total input {
+    width: 100%;
+    padding: 14px 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 1.7rem;
+}
+.container-total button {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: #e35;
+    outline: none;
+    border: 1px solid rgb(233, 25, 63);
+}
+/* Kết thúc */
+
+.container_cart-none {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+
+}
+.container_cart-none-1 {
+    text-align: center;
+}
+.container_cart-none-1 h2 {
+    margin-top: 10px;
+    font-size: 2rem;
+    
+}
+
+.container_cart-none-1-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e35;
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+}

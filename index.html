@@ -1,0 +1,2212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ - Vinmart</title>
+    <link rel="icon" type="image/x-icon" href="../imgae/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/reponsive.css">
+    <link rel="stylesheet" href="./Category/category.css">
+</head>
+<body>
+    <!-- start header -->
+    <header class="header">
+        <div class="grid wide">
+            <nav class="header__navbar">
+                <a href="#" class="header__logo">
+                    <img src="./imgae/logo.png" alt="" class="header__logo-img">
+                </a>
+                <div class="header__input">
+                    <input type="text" class="header__input-search" placeholder="Nhập tên sản phẩm,mã sản phẩm...">
+                    <i class="header_icon fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="header__list">
+                    <button class="header__list-link js-header__list-link">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Đăng nhập</span>
+                    </button>
+                    <a href="./cart/cart.html" class="header__list-link">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <span>Giỏ hàng (0)</span>
+                    </a>
+                </div>
+                <div class="tablet__list">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="c-3">
+                                <div class="tablet__item">
+                                    <img width="70px" src="./imgae/d1.png" alt="">
+                                    <p>sản phẩm khuyến mãi</p>
+                                </div>
+                            </div>
+                            <div class="c-3">
+                                <div class="tablet__item">
+                                    <img width="70px" src="./imgae/d2.png" alt="">
+                                    <p>Rau - Củ - Trái Cây</p>
+                                </div>
+                            </div>
+                            <div class="c-3">
+                                <div class="tablet__item">
+                                    <img width="70px" src="./imgae/d3.png" alt="">
+                                    <p>Thịt - Trứng - Hải Sản</p>
+                                </div>
+                            </div>
+                            <div class="c-3">
+                                <div class="tablet__item">
+                                    <img width="70px" src="./imgae/d4.png" alt="">
+                                    <p>Thực Phẩm Chế Biến</p>
+                                </div>
+                            </div>
+                            <div class="c-3">
+                                <div class="tablet__item">
+                                    <img width="70px" src="./imgae/d5.png" alt="">
+                                    <p>Thực Phẩm Đông Lạnh</p>
+                                </div>
+                            </div>
+                            <div class="c-3">
+                                <div class="tablet__item">
+                                    <img width="70px" src="./imgae/d6.png" alt="">
+                                    <p>Thực Phẩm Khô - Gia Vị</p>
+                                </div>
+                            </div>
+                            <div class="c-3">
+                                <div class="tablet__item">
+                                    <img width="70px" src="./imgae/d7.png" alt="">
+                                    <p>Bánh Kẹo - Đồ Ăn Vặt</p>
+                                </div>
+                            </div>
+                            <div class="c-3">
+                                <div class="tablet__item">
+                                    <img width="70px" src="./imgae/d8.png" alt="">
+                                    <p>Sữa - Sản Phẩm Từ Sữa</p>
+                                </div>
+                            </div>
+                            <div class="c-3">
+                                <div class="tablet__item">
+                                    <img width="70px" src="./imgae/d9.png" alt="">
+                                    <p>Đồ Uống - Giải Khát</p>
+                                </div>
+                            </div>
+                            <div class="c-3">
+                                <div class="tablet__item">
+                                    <img width="70px" src="./imgae/d10.png" alt="">
+                                    <p>Hóa Mỹ Phẩm</p>
+                                </div>
+                            </div>
+                            <div class="c-3">
+                                <div class="tablet__item">
+                                    <img width="70px" src="./imgae/d11.png" alt="">
+                                    <p>Chăm Sóc Cá Nhân</p>
+                                </div>
+                            </div>
+                            <div class="c-3">
+                                <div class="tablet__item">
+                                    <img width="70px" src="./imgae/d0.png" alt="">
+                                    <p>Chăm Sóc Mẹ Và Bé</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+        <nav class="header__navigation">
+            <div class="grid wide">
+                <div class="header__navigation-list">
+                    <div href="" class="header__list-left">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                        Danh mục sản phẩm
+
+                        <ul class="header_list-down">
+                            <li class="header_list-down-item">
+                               <a class="header_list-down-item-link" href="./Category/category.html"> Sản phẩm khuyến mại</a>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./Category/category.html">Rau - Củ - Trái cây</a>
+                                <div class="header_list-down-item-list">
+                                    <ul class="header_list-down-item-list-item">
+                                        <li class="header_list-down-item-list-item-code">Rau củ quả</li>
+                                        <li class="header_list-down-item-list-item-code">Trái cây</li>
+                                    </ul>
+                                    <img src="./imgae/d1.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./Category/category.html">Thịt - Trứng - Hải sản</a>
+                                <div class="header_list-down-item-list1">
+                                    <ul class="header_list-down-item-list-item1">
+                                        <li class="header_list-down-item-list-item-code1">Thịt</li>
+                                        <li class="header_list-down-item-list-item-code1">Trứng</li>
+                                        <li class="header_list-down-item-list-item-code1">Hải sản</li>
+                                    </ul>
+                                    <img src="./imgae/d2.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./Category/category.html">Thực phẩm chế biến</a>
+                                <div class="header_list-down-item-list2">
+                                    <ul class="header_list-down-item-list-item2">
+                                        <li class="header_list-down-item-list-item-code2">Thức ăn nấu sẵn</li>
+                                        <li class="header_list-down-item-list-item-code2">Bánh mì</li>
+                                        <li class="header_list-down-item-list-item-code2">Thịt luộc,súc xích,hàng chua</li>
+                                    </ul>
+                                    <img src="./imgae/d3.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                               <a class="header_list-down-item-link" href="./Category/category.html"> Thực phẩm đông lạnh</a>
+                                <div class="header_list-down-item-list3">
+                                    <ul class="header_list-down-item-list-item3">
+                                        <li class="header_list-down-item-list-item-code3">Thịt nguội</li>
+                                        <li class="header_list-down-item-list-item-code3">Bánh bao,đậu hũ</li>
+                                        <li class="header_list-down-item-list-item-code3">Xúc xích,lạp xưởng</li>
+                                        <li class="header_list-down-item-list-item-code3">Thủy hản sản</li>
+                                        <li class="header_list-down-item-list-item-code3">Thực phẩm chế biến</li>
+                                        <li class="header_list-down-item-list-item-code3">Trái cây,Hoa quả</li>
+                                    </ul>
+                                    <img src="./imgae/d4.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./Category/category.html">Thực phẩm khô - Gia vị</a>
+                                <div class="header_list-down-item-list4">
+                                    <ul class="header_list-down-item-list-item4">
+                                        <li class="header_list-down-item-list-item-code4">Mì,Miến,Bánh đa,Nui</li>
+                                        <li class="header_list-down-item-list-item-code4">Gạo Nông sản khô</li>
+                                        <li class="header_list-down-item-list-item-code4">Dầu ăn gia vị các loại</li>
+                                        <li class="header_list-down-item-list-item-code4">Ngũ cốc,Yến mạch</li>
+                                        <li class="header_list-down-item-list-item-code4">Đồ hộp các loại</li>
+                                        <li class="header_list-down-item-list-item-code4">Rong biển,tảo biển</li>
+                                        <li class="header_list-down-item-list-item-code4">Các loại bột mì nấu ăn</li>
+                                        <li class="header_list-down-item-list-item-code4">Sữa đặc</li>
+                                    </ul>
+                                    <img src="./imgae/d5.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./Category/category.html">Bánh kẹo - Đồ ăn vặt</a>
+                                <div class="header_list-down-item-list5">
+                                    <ul class="header_list-down-item-list-item5">
+                                        <li class="header_list-down-item-list-item-code5">Bánh sốp,bánh quy</li>
+                                        <li class="header_list-down-item-list-item-code5">Kẹo,Chocolate</li>
+                                        <li class="header_list-down-item-list-item-code5">Hạt sấy khô</li>
+                                        <li class="header_list-down-item-list-item-code5">Trái cây sấy,ô mai</li>
+                                        <li class="header_list-down-item-list-item-code5">Hàng thời vụ</li>
+                                    </ul>
+                                    <img src="./imgae/d6.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./Category/category.html">Sữa - sản phẩm từ sữa</a>
+                                <div class="header_list-down-item-list6">
+                                    <ul class="header_list-down-item-list-item6">
+                                        <li class="header_list-down-item-list-item-code6">Sữa tươi</li>
+                                        <li class="header_list-down-item-list-item-code6">Sữa hạt,sữa đậu</li>
+                                        <li class="header_list-down-item-list-item-code6">sữa bột các loại</li>
+                                        <li class="header_list-down-item-list-item-code6">Thức uống lúa mạch</li>
+                                        <li class="header_list-down-item-list-item-code6">Bơ, phô mai</li>
+                                        <li class="header_list-down-item-list-item-code6">Sữa chua</li>
+                                    </ul>
+                                    <img src="./imgae/d7.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./Category/category.html">Đồ uống - Giải khát</a>
+                                <div class="header_list-down-item-list11">
+                                    <ul class="header_list-down-item-list-item11">
+                                        <li class="header_list-down-item-list-item-code11">Thức ăn nấu sẵn</li>
+                                        <li class="header_list-down-item-list-item-code11">Bánh mì</li>
+                                        <li class="header_list-down-item-list-item-code11">Thịt luộc,súc xích,hàng chua</li>
+                                    </ul>
+                                    <img src="./imgae/d8.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./Category/category.html">Hóa mỹ phẩm</a>
+                                <div class="header_list-down-item-list8">
+                                    <ul class="header_list-down-item-list-item8">
+                                        <li class="header_list-down-item-list-item-code8">Bia, nước uống có cồn</li>
+                                        <li class="header_list-down-item-list-item-code8">Nước suối,nước ngọt</li>
+                                        <li class="header_list-down-item-list-item-code8">Cà phê,trà các loại</li>
+                                    </ul>
+                                    <img src="./imgae/d10.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./Category/category.html">Chăm sóc cá nhân</a>
+                                <div class="header_list-down-item-list9">
+                                    <ul class="header_list-down-item-list-item9">
+                                        <li class="header_list-down-item-list-item-code9">Chăm sóc tóc</li>
+                                        <li class="header_list-down-item-list-item-code9">chăm sóc da</li>
+                                        <li class="header_list-down-item-list-item-code9">Chăm sóc răng miệng</li>
+                                        <li class="header_list-down-item-list-item-code9">Chăm sóc phụ nữ</li>
+                                        <li class="header_list-down-item-list-item-code9">Khăn ướt,khăn giấy</li>
+                                        <li class="header_list-down-item-list-item-code9">Khẩu trang</li>
+                                    </ul>
+                                    <img src="./imgae/d9.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                               <a class="header_list-down-item-link" href="./Category/category.html"> Chăm sóc mẹ và bé</a>
+                                <div class="header_list-down-item-list10">
+                                    <ul class="header_list-down-item-list-item10">
+                                        <li class="header_list-down-item-list-item-code10">Sữa bột,sữa đặc,dinh dưỡng trẻ em</li>
+                                        <li class="header_list-down-item-list-item-code10">Tã bỉnh các loại</li>
+                                        <li class="header_list-down-item-list-item-code10">Dồ dùng chăm sóc mẹ và bé</li>
+                                    </ul>
+                                    <img src="./imgae/d11.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <ul class="header__list-right">
+                        <li class="header__list-item">
+                            <a href="">
+                                <i class="fa-solid fa-angle-down"></i>
+                                Sản phẩm vừa xem
+                            </a>
+                    
+                        </li>
+                        <li class="header__list-item">
+                            <a href="">
+                                <i class="fa-solid fa-envelope"></i>
+                                Tin tức
+                            </a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="">
+                                <i class="fa-solid fa-headphones"></i>
+                                Tư vấn mua hàng
+
+                                <div class="header__list-item-dropdown">
+                                    <p>Mua online: <span>0335463797</span></p>
+                                    
+                                </div>
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <!-- end header -->
+
+    <!--start container -->
+        <section class="container">
+            <div class="container_none">
+                <div class="grid wide">
+                    <div class="container__slide">
+                        <div class="slide-wrapper">
+                            <div class="mySlides fade">
+                                <img src="./imgae/slide1.jpeg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="./imgae/slide2.jpeg" style="width:100%">                    
+                            </div>
+                             <!-- Nút điều khiển mũi tên-->
+                              <a class="prev" onclick="plusSlides(-1)">❮</a>
+                              <a class="next" onclick="plusSlides(1)">❯</a>
+                        </div>
+                    </div>
+                    <div class="row mt-100">
+                        <div class="product">
+                            <div class="product__title">
+                                <h2 class="product__title-heading">Sản phẩm khuyến mãi</h2>
+                            </div>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="./Product/product.html" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_khuyenmai/sp1.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nước giặt LIX đậm đặc 3.6kg/3,8kg</h4>
+                                    <p class="product__item-unit">DTV: Chai</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">185.000đ</span>
+                                        <span class="product__price-action">119.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_khuyenmai/sp2.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nước giặt hương nước hoa Lix túi 3.5Kg</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">156.000đ</span>
+                                        <span class="product__price-action">111.6001đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_khuyenmai/sp3.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa Ichiban đậu nành & đậu đỏ & đậu xanh 350ml</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">12.600đ</span>
+                                        <span class="product__price-action">16.700đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_khuyenmai/sp4.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa đậu nành Ichiban nguyên chất ít đường chai 350ml</h4>
+                                    <p class="product__item-unit">DTV: Chai</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">12.600đ</span>
+                                        <span class="product__price-action">10.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_khuyenmai/sp5.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa uống lên men Yakult lốc 5 chai x 65ml</h4>
+                                    <p class="product__item-unit">DTV: Gói 5</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">27.400đ</span>
+                                        <span class="product__price-action">24.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_khuyenmai/sp6.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa tươi nguyên kem tiệt trùng Lemontree Dairy hộ</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">39.900đ</span>
+                                        <span class="product__price-action">29.500đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_khuyenmai/sp7.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nước giải khát có gas 7 Up chai 1.5L</h4>
+                                    <p class="product__item-unit">DTV: Chai</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">19.500đ</span>
+                                        <span class="product__price-action">15.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6 ">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_khuyenmai/sp8.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nước giải khát vị cam cực mạnh Mirinda chai 1.5L</h4>
+                                    <p class="product__item-unit">DTV: Chai</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">19.600đ</span>
+                                        <span class="product__price-action">15.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_khuyenmai/sp9.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Xúc xích Roma Đức Việt gói 500g</h4>
+                                    <p class="product__item-unit">DTV: Chai</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">60.600đ</span>
+                                        <span class="product__price-action">47.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_khuyenmai/sp10.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Dầu ăn dinh dưỡng cho bé Kiddy 250ml</h4>
+                                    <p class="product__item-unit">DTV: Chai</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">52.000đ</span>
+                                        <span class="product__price-action">40.900đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="product">
+                            <div class="product__title">
+                                <h2 class="product__title-heading">Rau - Củ - Quả</h2>
+                            </div>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_rau-cu-qua/sp1.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Táo Queen New Zealand PG size 90-120</h4>
+                                    <p class="product__item-unit">DTV:  1kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">99.900đ</span>
+                                        <span class="product__price-action">79.900đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_rau-cu-qua/sp2.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Cam ruột vàng úc</h4>
+                                    <p class="product__item-unit">DTV: 0.6kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">60.000đ</span>
+                                        <span class="product__price-action">53.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_rau-cu-qua/sp3.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa chua nha đam Vinamilk hộp 100g</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.700đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_rau-cu-qua/sp4.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bưởi hồng da xanh túi lưới</h4>
+                                    <p class="product__item-unit">DTV: 1.2kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">24.900đ</span>
+                                        <span class="product__price-action">22.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_rau-cu-qua/sp5.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Kiwi xanh Newzealand (4trái/hộp)</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">27.400đ</span>
+                                        <span class="product__price-action">24.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_rau-cu-qua/sp6.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bắp cải trắng</h4>
+                                    <p class="product__item-unit">DTV: 0.6kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">15.500đ</span>
+                                        <span class="product__price-action">11.340đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_rau-cu-qua/sp7.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bí xanh (bí đao) WinEco</h4>
+                                    <p class="product__item-unit">DTV: 0.5kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">11.400đ</span>
+                                        <span class="product__price-action">9.450đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_rau-cu-qua/sp8.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Lê đỏ Nam phi</h4>
+                                    <p class="product__item-unit">DTV: 0.5kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">39.600đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_rau-cu-qua/sp9.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nha đam Đà Lạt</h4>
+                                    <p class="product__item-unit">DTV: 0.2kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">11.600đ</span>
+                                        <span class="product__price-action">7.350đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_rau-cu-qua/sp10.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Hành tây</h4>
+                                    <p class="product__item-unit">DTV: 0.3Kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">12.160đ</span>
+                                        <span class="product__price-action">11.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="product">
+                            <div class="product__title">
+                                <h2 class="product__title-heading">Thịt - Trứng - Hải sản</h2>
+                            </div>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_thit-trung-haisan/sp1.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sườn thăn Meat Deli Premium</h4>
+                                    <p class="product__item-unit">DTV: 0.35kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">110.800đ</span>
+                                        <span class="product__price-action">86.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_thit-trung-haisan/sp2.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bắp giò cuộn MeatDeli Premium</h4>
+                                    <p class="product__item-unit">DTV: 0.3kg/p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">65.400đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_thit-trung-haisan/sp3.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nộm sứa Tĩnh Gia Nhật Minh gói 350g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">31.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_thit-trung-haisan/sp4.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Tôm nõn khô hộp 200g</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">190.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_thit-trung-haisan/sp5.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Trứng gà sạch O'LALA hộp 10 quả</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">29.500đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_thit-trung-haisan/sp6.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Tôm nõn khô hộp 100g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">98.500đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_thit-trung-haisan/sp7.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Mì gói ăn liền Jin Jjajang Ramen sốt tương đen Ottogi 135g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.400đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_thit-trung-haisan/sp8.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Trứng gà DHA Dabaco hộp 10 quả</h4>
+                                    <p class="product__item-unit">DTV: 05.kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">59.400đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_thit-trung-haisan/sp9.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nghêu sạch Lenger khay 1.2kg</h4>
+                                    <p class="product__item-unit">DTV: 1.2kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">75.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_thit-trung-haisan/sp10.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nem thịt đặc biệt CP gói 500g</h4>
+                                    <p class="product__item-unit">DTV: Kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">59.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="product">
+                            <div class="product__title">
+                                <h2 class="product__title-heading">Thực Phẩm Chế Biến</h2>
+                            </div>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_chebien/sp1.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Chả chiên Meat Deli 250g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">59.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_chebien/sp2.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Khô heo vị cháy tỏi Feddy G gói 25g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">8.000đ</span>
+                                        <span class="product__price-action">14.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_chebien/sp3.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa chua nha đam Vinamilk hộp 100g</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.700đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_chebien/sp4.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Thạch an Cao Bằng hộp 950g</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">55.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_chebien/sp5.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa uống lên men Yakult lốc 5 chai x 65ml</h4>
+                                    <p class="product__item-unit">DTV: Gói 5</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">27.400đ</span>
+                                        <span class="product__price-action">24.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_chebien/sp6.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Da cá vị trứng muối Feddy gói 50g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">31.500đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_chebien/sp7.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Ruốc cá Bavabi lọ 150g</h4>
+                                    <p class="product__item-unit">DTV: Lọ</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">108.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_chebien/sp8.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bánh mỳ gối đen VinMart Cook gói 300g</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.600đ</span>
+                                        <span class="product__price-action">25.500đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_chebien/sp9.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Tàu hũ mềm Ichiban hộp 300g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">10.400đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_chebien/p10.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Kim chi cải thảo cắt lát Ông Kim's túi 100g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">13.300 ₫</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="product">
+                            <div class="product__title">
+                                <h2 class="product__title-heading">Thực Phẩm Đông Lạnh</h2>
+                            </div>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_donglanh/sp1.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Xúc xích Red tiệt trùng CP gói 200g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">23.600đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_donglanh/sp2.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Cá trứng Đôi Đũa Vàng khay 400g</h4>
+                                    <p class="product__item-unit">DTV: Khay</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">116.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_donglanh/sp3.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Há cảo Thực Phẩm Cầu Tre gói 500g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">60.700đ</span>
+                                        <span class="product__price-action">58.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_donglanh/sp4.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Há cảo tôm cua Thực Phẩm Cầu Tre gói 500g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">80.900đ</span>
+                                        <span class="product__price-action">67.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_donglanh/sp5.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Tôm nõn size 21/25 Miền Hạ Long khay 500g</h4>
+                                    <p class="product__item-unit">DTV: Gói 5</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">196.500đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_donglanh/sp6.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Thịt cua đồng xay tinh chế Vinacua gói 250g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">72.500đ</span>
+                                        <span class="product__price-action">70.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_donglanh/sp7.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Cá thu một nắng Miền Hạ Long gói 500g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">160.400đ</span>
+                                        <span class="product__price-action">154.0400đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_donglanh/sp8.png) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Khoai tây đông lạnh dạng sợi nhỏ Shoestrings - All</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.600đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_donglanh/sp9.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Khoai tây đông lạnh sợi lớn Lutosa gói 450g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">41.600đ</span>
+                                        <span class="product__price-action">39.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/Sp_donglanh/sp10.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bánh bao nhân xá xíu Phú Mỹ Bakery gói 300g</h4>
+                                    <p class="product__item-unit">DTV: Kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">33.600đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="product">
+                            <div class="product__title">
+                                <h2 class="product__title-heading">Thực Phẩm Khô - Gia Vị</h2>
+                            </div>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_kho_giavi/sp1.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Mì khoai tây Omachi Special bò hầm xốt vang gói 92g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">13.800đ</span>
+                                        <span class="product__price-action">11.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_kho_giavi/sp2.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Mì khoai tây Omachi vị sườn hầm ngũ quả thịt ly 113g</h4>
+                                    <p class="product__item-unit">DTV: gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">17.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_kho_giavi/sp3.png) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Gạo ST25 Ngọc Nương túi 5Kg</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">179.500đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_kho_giavi/sp4.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Tương ớt Chin-su 250g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">15.900đ</span>
+                                        <span class="product__price-action">14.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_kho_giavi/sp5.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nước tương đậm đặc Maggi 300ml</h4>
+                                    <p class="product__item-unit">DTV: Chai</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">17.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_kho_giavi/sp6.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nước chấm hương cá hồi Chin-su chai 500ml</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">45.500đ</span>
+                                        <span class="product__price-action">42.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_kho_giavi/sp7.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Mì gói ăn liền Jin Jjajang Ramen sốt tương đen Ottogi 135g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.400đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_kho_giavi/sp8.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Dầu đậu nành không biến đổi gen Amur Pearl chai 1L</h4>
+                                    <p class="product__item-unit">DTV: Chai</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">99.600đ</span>
+                                        <span class="product__price-action">88.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_kho_giavi/sp9.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Kẹo dẻo Cola Chupa Chups gói 90g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">20.600đ</span>
+                                        <span class="product__price-action">18.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sp_kho_giavi/sp11.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Dầu ăn thượng hạng Neptune Light can 2 lít</h4>
+                                    <p class="product__item-unit">DTV: Chai</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">143.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="product">
+                            <div class="product__title">
+                                <h2 class="product__title-heading">Bánh Kẹo - Đồ Ăn Vặt</h2>
+                            </div>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/banhkeo_doanvat/sp1.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bánh gạo Nhật Ichi Kameda gói 100g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">22.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/banhkeo_doanvat/sp2.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bánh quy bơ Leibniz gói 100g</h4>
+                                    <p class="product__item-unit">DTV: Lọ</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">38.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/banhkeo_doanvat/sp3.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bánh cracker dinh dưỡng AFC vị lúa mì hộp 200g</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/banhkeo_doanvat/sp4.png) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bánh bông lan Orion C'est Bon sợi thịt gà 5 gói</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">21.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/banhkeo_doanvat/sp5.png) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bánh Chocopie Orion vị cacao 360g</h4>
+                                    <p class="product__item-unit">DTV: Gói 5</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">52.400đ</span>
+                                        <span class="product__price-action">48.300đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/banhkeo_doanvat/sp6.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Kẹo sữa caramen Alpenliebe gói 120g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">13.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/banhkeo_doanvat/sp7.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Kẹo dẻo Cola Chupa Chups gói 90g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/banhkeo_doanvat/sp8.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Snack mực lăn muối ớt Poca gói 75g</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">10.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/banhkeo_doanvat/sp9.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Mực tẩm gia vị Thái Bento gói 24g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.600đ</span>
+                                        <span class="product__price-action">25.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/banhkeo_doanvat/sp10.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Snack khoai tây Lay's vị bò bít tết Manhattan gói 95g</h4>
+                                    <p class="product__item-unit">DTV: Kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">19.160đ</span>
+                                        <span class="product__price-action">21.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="product">
+                            <div class="product__title">
+                                <h2 class="product__title-heading">Sữa - Sản Phẩm Từ Sữa</h2>
+                            </div>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sua_sptusua/sp1.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Lốc 4 hộp sữa lúa mạch B'FAST canxi 180ml</h4>
+                                    <p class="product__item-unit">DTV: Gói 4</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">26.800đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sua_sptusua/sp2.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Lốc 4 hộp sữa tươi tiệt trùng TH True Milk có đường</h4>
+                                    <p class="product__item-unit">DTV: gói 4</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">38.000đ</span>
+                                        <span class="product__price-action">36.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sua_sptusua/sp3.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Thức uống lúa mạch uống liền Milo Nestlé hộp 180ml</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-action">7.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sua_sptusua/sp4.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa tiệt trùng Cô gái Hà Lan không đường hộp 1lít</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">33.900đ</span>
+                                        <span class="product__price-action">31.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sua_sptusua/sp5.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa uống lên men Yakult lốc 5 chai x 65ml</h4>
+                                    <p class="product__item-unit">DTV: Gói 5</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">27.400đ</span>
+                                        <span class="product__price-action">24.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sua_sptusua/sp6.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa tươi tiệt trùng nguyên kem Meadow Fresh hộp 1L</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">41.500đ</span>
+                                        <span class="product__price-action">39.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sua_sptusua/sp7.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa tươi tiệt trùng Vinamilk không đường hộp 1 lít</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.400đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sua_sptusua/sp12.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa tươi tiệt trùng nguyên chất TH True Milk hộp</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.600đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sua_sptusua/sp9.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa tươi nguyên chất Promess hộp 1L</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">20.600đ</span>
+                                        <span class="product__price-action">18.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/sua_sptusua/sp10.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa tươi thanh trùng Mộc Châu không đường chai 900g</h4>
+                                    <p class="product__item-unit">DTV: Kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">9.160đ</span>
+                                        <span class="product__price-action">11.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="product">
+                            <div class="product__title">
+                                <h2 class="product__title-heading">Đồ Uống - Giải Khát</h2>
+                            </div>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="./dohuong_giaikhat#product1.html" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/douong_giaikhat/sp1.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bia Red Ruby lon 330ml</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">119.800đ</span>
+                                        <span class="product__price-action">110.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/douong_giaikhat/sp2.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bia Tiger lon 330ml</h4>
+                                    <p class="product__item-unit">DTV: Lọ</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">8.000đ</span>
+                                        <span class="product__price-action">7.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/douong_giaikhat/sp3.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bia Sapporo Premium lon 330ml</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.700đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/douong_giaikhat/sp4.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bia Hoegaarden trắng lon 330ml</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">24.900đ</span>
+                                        <span class="product__price-action">22.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/douong_giaikhat/sp5.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa uống lên men Yakult lốc 5 chai x 65ml</h4>
+                                    <p class="product__item-unit">DTV: Gói 5</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">27.400đ</span>
+                                        <span class="product__price-action">24.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/douong_giaikhat/sp6.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bánh cracker dinh dưỡng AFC vị lúa mì hộp 200g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">29.500đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/douong_giaikhat/sp7.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Mì gói ăn liền Jin Jjajang Ramen sốt tương đen Ottogi 135g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.400đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/douong_giaikhat/sp8.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Kẹo gum không đường hương Dâu Bạc Hà Xylitol hộp 58g</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.600đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/douong_giaikhat/sp9.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Kẹo dẻo Cola Chupa Chups gói 90g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">20.600đ</span>
+                                        <span class="product__price-action">18.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/douong_giaikhat/sp10.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Cà chua Đà Lạt</h4>
+                                    <p class="product__item-unit">DTV: Kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">9.160đ</span>
+                                        <span class="product__price-action">11.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="product">
+                            <div class="product__title">
+                                <h2 class="product__title-heading">Hóa Mỹ Phẩm</h2>
+                            </div>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="./hoamypham#product1.html" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/hoamypham/sp1.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bột giặt Joins 2 trong 1 túi 4,5kg</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">119.800đ</span>
+                                        <span class="product__price-action">110.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/hoamypham/sp2.png) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nước giặt Ariel hương Downy túi 3.25kg</h4>
+                                    <p class="product__item-unit">DTV: Lọ</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">8.000đ</span>
+                                        <span class="product__price-action">7.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/hoamypham/sp3.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nước giặt quần áo em bé D-nee Lovely Sky​ can 3L</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.700đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/hoamypham/sp4.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nước giặt Downy vườn hoa thơm ngát túi 2.15kg</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">24.900đ</span>
+                                        <span class="product__price-action">22.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/hoamypham/sp5.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nước giặt Downy Matic Biển xanh tươi mát túi 2,15kg</h4>
+                                    <p class="product__item-unit">DTV: Gói 5</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">27.400đ</span>
+                                        <span class="product__price-action">24.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/hoamypham/sp6.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nước xả vải Downy hương đam mê túi 3 lít
+                                    </h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">29.500đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/hoamypham/sp7.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bông trang điểm PoP-Puf ép biên hộp 180 miếng
+                                    </h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.400đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/hoamypham/sp8.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bột giặt LIX extra gói 5,5kg/ 6kg</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.600đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/hoamypham/sp9.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bột tẩy lồng máy giặt Hando hộp 2 gói x 100g
+                                    </h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">20.600đ</span>
+                                        <span class="product__price-action">18.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/hoamypham/sp10.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Nước xả vải Downy đam mê dạng túi 1.5L</h4>
+                                    <p class="product__item-unit">DTV: Kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">9.160đ</span>
+                                        <span class="product__price-action">11.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="product">
+                            <div class="product__title">
+                                <h2 class="product__title-heading">Chăm Sóc Cá Nhân</h2>
+                            </div>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="./chamsoccanhan#product1.html" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsoccanhan/sp1.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa rửa mặt đất sét trắng Senka Perfect Whiteclay...</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">119.800đ</span>
+                                        <span class="product__price-action">110.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsoccanhan/sp2.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bộ đôi nước súc miệng diệt khuẩn Listerine Cool M...</h4>
+                                    <p class="product__item-unit">DTV: Lọ</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">8.000đ</span>
+                                        <span class="product__price-action">7.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsoccanhan/sp3.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Dầu gội cao cấp dành cho tóc hư tổn Kerasys Salon Care Nutritive Ampoule 600g</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.700đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsoccanhan/sp4.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Dầu gội thảo dược Kerasys Oriental Premium Shampoo 600g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">24.900đ</span>
+                                        <span class="product__price-action">22.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsoccanhan/sp5.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Dầu gội siêu mượt Rejoice 650g</h4>
+                                    <p class="product__item-unit">DTV: Gói 5</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">27.400đ</span>
+                                        <span class="product__price-action">24.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsoccanhan/sp6.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Dầu gội Pantene Pro-V dưỡng tóc suôn mượt óng ả 650g
+                                    </h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">29.500đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsoccanhan/sp7.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Dầu gội Pantene Pro-V dưỡng chất ngăn rụng tóc 650g
+                                    </h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.400đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsoccanhan/sp8.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Dầu xả thảo dược Kerasys Oriental Premium 600ml</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.600đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsoccanhan/sp9.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Dầu gội Head & Shoulders bạc hà mát rượi chai 625ml
+                                    </h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">20.600đ</span>
+                                        <span class="product__price-action">18.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsoccanhan/sp11.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Dầu gội Head & Shoulders cho da đầu ngứa 625ml
+                                    </h4>
+                                    <p class="product__item-unit">DTV: Kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">9.160đ</span>
+                                        <span class="product__price-action">11.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="product">
+                            <div class="product__title">
+                                <h2 class="product__title-heading">Chăm Sóc Mẹ Và Bé</h2>
+                            </div>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="./chamsocmevsb#/product1.html" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsocmevabe/sp1.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa bột Abbott PediaSure BA hương vani 1,6kg
+                                    </h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">119.800đ</span>
+                                        <span class="product__price-action">110.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsocmevabe/sp2.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa bột Abbott Glucerna hương vani hộp 850g</h4>
+                                    <p class="product__item-unit">DTV: Lọ</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">8.000đ</span>
+                                        <span class="product__price-action">7.100đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsocmevabe/sp3.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Bàn chải đánh răng trẻ em Colgate Ultra Soft siêu mềm Barbie/Spiderman</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.700đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsocmevabe/sp4.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa bột hương vani Ensure Gold hộp 850g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">24.900đ</span>
+                                        <span class="product__price-action">22.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsocmevabe/sp12.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa bột hương vani PediaSure lon 850g</h4>
+                                    <p class="product__item-unit">DTV: Gói 5</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">27.400đ</span>
+                                        <span class="product__price-action">24.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsocmevabe/sp13.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa đặc có đường Ông Thọ Vinamilk lon 380g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">29.500đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsocmevabe/sp7.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Kem đặc Ngôi Sao Phương Nam có đường lon 380g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.400đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsocmevabe/sp8.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Kem đặc có đường Vinamilk Ngôi Sao Phương Nam hộp...</h4>
+                                    <p class="product__item-unit">DTV: Hộp</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">28.600đ</span>
+                                        <span class="product__price-action">26.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsocmevabe/sp9.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa đặc có đường Ông Thọ đỏ lon 380g</h4>
+                                    <p class="product__item-unit">DTV: Gói</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">20.600đ</span>
+                                        <span class="product__price-action">18.000đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="l-2-4 c-4 m-6">
+                            <a href="#" class="product__item">
+                                <div class="product__item-img" style="background-image: url(./imgae/chamsocmevabe/sp10.jpg) ;"></div>
+                                <div class="product__item-title">
+                                    <h4 class="product__item-heading">Sữa đặc có đường Ông Thọ trắng lon 380g</h4>
+                                    <p class="product__item-unit">DTV: Kg</p>
+                                    <div class="product__price">
+                                        <span class="product__price-gack">9.160đ</span>
+                                        <span class="product__price-action">11.200đ</span>
+                                    </div>
+                                    <button class="btn">Thêm vào giỏ</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>  
+            </div>  
+            <div class="container__content">
+                <div class="grid wide">
+                    <div class="row center">
+                        <div class="l-3">
+                            <div class="container__content-item">
+                                <img src="./imgae/162964655378716287682220181-1.png" alt="">
+                                <p>Sản phẩm khuyến mãi</p>
+                            </div>
+                        </div>
+                        <div class="l-3">
+                            <div class="container__content-item">
+                                <img src="./imgae/162964658411816287682628462-1.png" alt="">
+                                <p>Chất lượng cam kết</p>
+                            </div>
+                        </div>
+                        <div class="l-3">
+                            <div class="container__content-item">
+                                <img src="./imgae/162964661464516287682943943-1.png" alt="">
+                                <p>Dịch vụ vượt trội</p>
+                            </div>
+                        </div>
+                        <div class="l-3">
+                            <div class="container__content-item">
+                                <img src="./imgae/162964665580516292779811154-1.png" alt="">
+                                <p>giao hàng nhanh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+         <!--end container -->   
+
+         <!-- start footer -->
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                       <div class="footer__content">
+                            <img width="200px" src="./imgae/logo_2-1024x510.png" alt="">
+                            <p>Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp VinCommerce
+                                MSDN: 0104918404 do Sở Kế hoạch và Đầu tư TP. Hà Nội cấp lần đầu ngày 20/09/2010
+                                Đăng ký thay đổi lần thứ 42 do Sở Kế hoạch Đầu tư TP. Hồ Chí Minh ngày 13/02/2020
+                            </p>
+                       </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="footer__content">
+                            <ul class="footer__content-list">
+                                <h4>Về chúng tôi</h4>
+                                <li class="footer__content-list-item">Giới thiệu về VinMart</li>
+                                <li class="footer__content-list-item">Danh sách cửa hàng</li>
+                                <li class="footer__content-list-item">Quản lý chất lượng</li>
+                                <li class="footer__content-list-item">Điều khoản và điều khoản giao dịch</li>
+                                <li class="footer__content-list-item">Chính sách bảo mật và chia sẻ thông tin</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="footer__content">
+                            <ul class="footer__content-list">
+                                <h4>Hỗ trợ khách hàng</h4>
+                                <li class="footer__content-list-item">Trung tâm hỗ trợ khách hàng</li>
+                                <li class="footer__content-list-item"> Chính sách thanh toán</li>
+                                <li class="footer__content-list-item">Chính sách giao hàng</li>
+                                <li class="footer__content-list-item">Chính sách đổi trả</li>
+                                <li class="footer__content-list-item">Chính sách chiếu khấu ưu đãi mua sắm</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="footer__content">
+                            <ul class="footer__content-list">
+                                <h4>Chăm sóc khách hàng</h4>
+                                <li class="footer__content-list-item">Mua Online: 0247 1066866</li>
+                                <li class="footer__content-list-item">Email: cskh@winmart.masangroup.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__title">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class=" col l-3">
+                           <div class="footer__title-heading">
+                                <h4>Trụ sở chính</h4>
+                                <p>Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp VinCommerce Tầng 5, Mplaza SaiGon, 39 Lê Duẩn, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh, Việt Nam.</p>
+                           </div>
+                        </div>
+                        <div class=" col l-4">
+                           <div class="footer__title-heading">
+                                <h4>Địa chỉ giao dịch Tp.HCM:</h4>
+                                <p>Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp VinCommerce Tầng 5, Mplaza SaiGon, 39 Lê Duẩn, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh.</p>
+                           </div>
+                        </div>
+                        <div class=" col l-4">
+                            <div class="footer__title-heading">
+                                <h4>Địa chỉ giao dịch Hà Nội:</h4>
+                                <p>Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp VinCommerce Tower 1, Times City, 458 Minh Khai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Thành phố Hà Nội.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer> 
+         <!-- end footer -->
+         <!-- fixed -->
+        <div class="affter">
+            <div></div>
+            <div  class="affter__icon" onclick="scrollToTop()">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+          <!-- fixed -->
+        <!-- modal login -->
+        <div class="modal js-modal">
+            <div class="modal__overlay"></div>
+
+            <div class="modal__body js-modal__body">
+                <div class="modal__inner">
+                    <div class="modal__inner-heading">
+                        <h3 class="modal__title">Đăng nhập</h3>
+                        <span class="modal__span">Đăng ký</span>
+                    </div>
+                    <form action="">
+                        <label for="">Tên tài khoản hoặc địa chỉ email*</label>
+                        <input type="text" required placeholder="Nhập tài khoản...">
+                        <label for="">Mật khẩu*</label>
+                        <input type="password" required placeholder="Nhập mật khẩu...">
+                        <button class="btn btn-full">Đăng nhập</button>
+                    </form>
+                    <div class="checkbox">
+                        <div class="checkbox__left">
+                            <input type="checkbox" name="" id="">
+                            <p>Ghi nhớ mật khẩu</p>
+                        </div>
+                        <span>Quên mật khẩu?</span>
+                    </div>
+                    <button class="btn-x">x</button>
+                </div>
+            </div>
+        </div>
+         <!--end modal login -->
+    <script src="./javascript/app.js"></script>
+</body>
+</html>

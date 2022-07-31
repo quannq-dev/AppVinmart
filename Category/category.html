@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lưu trữ sản phẩm khuyến mãi</title>
+    <link rel="icon" type="image/x-icon" href="../imgae/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/reponsive.css">
+    <link rel="stylesheet" href="../sp_khuyenmai/product.css">
+    <link rel="stylesheet" href="./category.css">
+
+</head>
+<body>
+    <!-- start header -->
+    <header class="header">
+        <div class="grid wide">
+            <nav class="header__navbar">
+                <a href="../index.html" class="header__logo">
+                    <img src="../imgae/logo.png" alt="" class="header__logo-img">
+                </a>
+                <div class="header__input">
+                    <input type="text" class="header__input-search" placeholder="Nhập tên sản phẩm,mã sản phẩm...">
+                    <i class="header_icon fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="header__list">
+                    <button class="header__list-link js-header__list-link">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Đăng nhập</span>
+                    </button>
+                    <a href="#" class="header__list-link">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <span>Giỏ hàng  </br> 0 sản phẩm</span>
+                    </a>
+                </div>
+                
+            </nav>
+        </div>
+    </header>
+        <nav class="header__navigation">
+            <div class="grid wide">
+                <div class="header__navigation-list">
+                    <div href="" class="header__list-left">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                        Danh mục sản phẩm
+
+                        <ul class="header_list-down">
+                            <li class="header_list-down-item">
+                               <a class="header_list-down-item-link" href="./Category/category.html"> Sản phẩm khuyến mại</a>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./category_r_c_q.html">Rau - Củ - Trái cây</a>
+                                <div class="header_list-down-item-list">
+                                    <ul class="header_list-down-item-list-item">
+                                        <li class="header_list-down-item-list-item-code">Rau củ quả</li>
+                                        <li class="header_list-down-item-list-item-code">Trái cây</li>
+                                    </ul>
+                                    <img src="../imgae/d1.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./category_t-t-hs.html">Thịt - Trứng - Hải sản</a>
+                                <div class="header_list-down-item-list1">
+                                    <ul class="header_list-down-item-list-item1">
+                                        <li class="header_list-down-item-list-item-code1">Thịt</li>
+                                        <li class="header_list-down-item-list-item-code1">Trứng</li>
+                                        <li class="header_list-down-item-list-item-code1">Hải sản</li>
+                                    </ul>
+                                    <img src="../imgae/d2.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./category_sp_chebien.html">Thực phẩm chế biến</a>
+                                <div class="header_list-down-item-list2">
+                                    <ul class="header_list-down-item-list-item2">
+                                        <li class="header_list-down-item-list-item-code2">Thức ăn nấu sẵn</li>
+                                        <li class="header_list-down-item-list-item-code2">Bánh mì</li>
+                                        <li class="header_list-down-item-list-item-code2">Thịt luộc,súc xích,hàng chua</li>
+                                    </ul>
+                                    <img src="../imgae/d3.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                               <a class="header_list-down-item-link" href="./category_sp_donglanh.html"> Thực phẩm đông lạnh</a>
+                                <div class="header_list-down-item-list3">
+                                    <ul class="header_list-down-item-list-item3">
+                                        <li class="header_list-down-item-list-item-code3">Thịt nguội</li>
+                                        <li class="header_list-down-item-list-item-code3">Bánh bao,đậu hũ</li>
+                                        <li class="header_list-down-item-list-item-code3">Xúc xích,lạp xưởng</li>
+                                        <li class="header_list-down-item-list-item-code3">Thủy hản sản</li>
+                                        <li class="header_list-down-item-list-item-code3">Thực phẩm chế biến</li>
+                                        <li class="header_list-down-item-list-item-code3">Trái cây,Hoa quả</li>
+                                    </ul>
+                                    <img src="../imgae/d4.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./category_tp-kho-giavi.html">Thực phẩm khô - Gia vị</a>
+                                <div class="header_list-down-item-list4">
+                                    <ul class="header_list-down-item-list-item4">
+                                        <li class="header_list-down-item-list-item-code4">Mì,Miến,Bánh đa,Nui</li>
+                                        <li class="header_list-down-item-list-item-code4">Gạo Nông sản khô</li>
+                                        <li class="header_list-down-item-list-item-code4">Dầu ăn gia vị các loại</li>
+                                        <li class="header_list-down-item-list-item-code4">Ngũ cốc,Yến mạch</li>
+                                        <li class="header_list-down-item-list-item-code4">Đồ hộp các loại</li>
+                                        <li class="header_list-down-item-list-item-code4">Rong biển,tảo biển</li>
+                                        <li class="header_list-down-item-list-item-code4">Các loại bột mì nấu ăn</li>
+                                        <li class="header_list-down-item-list-item-code4">Sữa đặc</li>
+                                    </ul>
+                                    <img src="../imgae/d5.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./category_banhkeo_doanvat.html">Bánh kẹo - Đồ ăn vặt</a>
+                                <div class="header_list-down-item-list5">
+                                    <ul class="header_list-down-item-list-item5">
+                                        <li class="header_list-down-item-list-item-code5">Bánh sốp,bánh quy</li>
+                                        <li class="header_list-down-item-list-item-code5">Kẹo,Chocolate</li>
+                                        <li class="header_list-down-item-list-item-code5">Hạt sấy khô</li>
+                                        <li class="header_list-down-item-list-item-code5">Trái cây sấy,ô mai</li>
+                                        <li class="header_list-down-item-list-item-code5">Hàng thời vụ</li>
+                                    </ul>
+                                    <img src="../imgae/d6.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./category_sua.html">Sữa - sản phẩm từ sữa</a>
+                                <div class="header_list-down-item-list6">
+                                    <ul class="header_list-down-item-list-item6">
+                                        <li class="header_list-down-item-list-item-code6">Sữa tươi</li>
+                                        <li class="header_list-down-item-list-item-code6">Sữa hạt,sữa đậu</li>
+                                        <li class="header_list-down-item-list-item-code6">sữa bột các loại</li>
+                                        <li class="header_list-down-item-list-item-code6">Thức uống lúa mạch</li>
+                                        <li class="header_list-down-item-list-item-code6">Bơ, phô mai</li>
+                                        <li class="header_list-down-item-list-item-code6">Sữa chua</li>
+                                    </ul>
+                                    <img src="../imgae/d7.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./category_douong_giaikhat.html">Đồ uống - Giải khát</a>
+                                <div class="header_list-down-item-list11">
+                                    <ul class="header_list-down-item-list-item11">
+                                        <li class="header_list-down-item-list-item-code11">Thức ăn nấu sẵn</li>
+                                        <li class="header_list-down-item-list-item-code11">Bánh mì</li>
+                                        <li class="header_list-down-item-list-item-code11">Thịt luộc,súc xích,hàng chua</li>
+                                    </ul>
+                                    <img src="../imgae/d8.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./category_hoamypham.html">Hóa mỹ phẩm</a>
+                                <div class="header_list-down-item-list8">
+                                    <ul class="header_list-down-item-list-item8">
+                                        <li class="header_list-down-item-list-item-code8">Bia, nước uống có cồn</li>
+                                        <li class="header_list-down-item-list-item-code8">Nước suối,nước ngọt</li>
+                                        <li class="header_list-down-item-list-item-code8">Cà phê,trà các loại</li>
+                                    </ul>
+                                    <img src="../imgae/d10.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                                <a class="header_list-down-item-link" href="./category_chamsoccanhan.html">Chăm sóc cá nhân</a>
+                                <div class="header_list-down-item-list9">
+                                    <ul class="header_list-down-item-list-item9">
+                                        <li class="header_list-down-item-list-item-code9">Chăm sóc tóc</li>
+                                        <li class="header_list-down-item-list-item-code9">chăm sóc da</li>
+                                        <li class="header_list-down-item-list-item-code9">Chăm sóc răng miệng</li>
+                                        <li class="header_list-down-item-list-item-code9">Chăm sóc phụ nữ</li>
+                                        <li class="header_list-down-item-list-item-code9">Khăn ướt,khăn giấy</li>
+                                        <li class="header_list-down-item-list-item-code9">Khẩu trang</li>
+                                    </ul>
+                                    <img src="../imgae/d9.png" alt="">
+                                </div>
+                            </li>
+                            <li class="header_list-down-item">
+                               <a class="header_list-down-item-link" href="./category_chamsocmevabe.html"> Chăm sóc mẹ và bé</a>
+                                <div class="header_list-down-item-list10">
+                                    <ul class="header_list-down-item-list-item10">
+                                        <li class="header_list-down-item-list-item-code10">Sữa bột,sữa đặc,dinh dưỡng trẻ em</li>
+                                        <li class="header_list-down-item-list-item-code10">Tã bỉnh các loại</li>
+                                        <li class="header_list-down-item-list-item-code10">Dồ dùng chăm sóc mẹ và bé</li>
+                                    </ul>
+                                    <img src="../imgae/d11.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <ul class="header__list-right">
+                        <li class="header__list-item">
+                            <a href="">
+                                <i class="fa-solid fa-angle-down"></i>
+                                Sản phẩm vừa xem
+                            </a>
+                    
+                        </li>
+                        <li class="header__list-item">
+                            <a href="">
+                                <i class="fa-solid fa-envelope"></i>
+                                Tin tức
+                            </a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="">
+                                <i class="fa-solid fa-headphones"></i>
+                                Tư vấn mua hàng
+
+                                <div class="header__list-item-dropdown">
+                                    <p>Mua online: <span>0335463797</span></p>
+                                    
+                                </div>
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div class="container container-mr">
+        <div class="grid wide">
+            <div class="container__wide">
+                <a class="link_home" href="../index.html">Trang chủ</a>
+                <a class="font__size">Sản phẩm khuyến mãi</a>
+            </div>
+            <div class="container__category">
+                <div class="row">
+                    <div class="col l-3 container__category-mr5">
+                        <div class="container__category-list">
+                            <h3>Sản phẩm khuyến mãi</h3>
+                            <span><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                        <div class="container__category-trademark">
+                            <h3>Thương hiệu</h3>
+                            <span><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                        <button>MEAT DELI</button>
+                        <button>VINECO</button>
+                    </div>
+                    <div class="col l-9 container__category-border">
+                        <div class="container__category-navigation">
+                            <ul class="container__category-navigation-list">
+                                <li class="container__category-navigation-item action">
+                                    Mặc định
+                                </li>
+                                <li class="container__category-navigation-item">
+                                    Bán chạy nhất
+                                </li>
+                                <li class="container__category-navigation-item">
+                                    Điểm đánh giá
+                                </li>
+                                <li class="container__category-navigation-item">
+                                    Mới nhất
+                                </li>
+                                <li class="container__category-navigation-item">
+                                    Giá thấp đến cao
+                                </li>
+                                <li class="container__category-navigation-item">
+                                    Giá cao đến thấp
+                                </li>
+                            </ul>
+                        </div>
+
+                        <h3>Bộ lọc kích hoạt</h3>
+                        <div class="container__category-sort">
+                            <span>Sắp xếp theo:</span>
+                            <p>Mặc định</p>
+                        </div>
+                        <div class="row category-pd">
+                            <div class="l-3 c-4 m-6">
+                                <a href="../Product/product.html" class="product__item">
+                                    <div class="product__item-img" style="background-image: url(../imgae/Sp_khuyenmai/sp1.jpg) ;"></div>
+                                    <div class="product__item-title">
+                                        <h4 class="product__item-heading">Nước giặt LIX đậm đặc 3.6kg/3,8kg</h4>
+                                        <p class="product__item-unit">DTV: Hộp</p>
+                                        <div class="product__price">
+                                            <span class="product__price-gack">119.800đ</span>
+                                            <span class="product__price-action">110.000đ</span>
+                                        </div>
+                                        <button class="btn">Thêm vào giỏ</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="l-3 c-4 m-6">
+                                <a href="#" class="product__item">
+                                    <div class="product__item-img" style="background-image: url(../imgae/Sp_khuyenmai/sp2.jpg) ;"></div>
+                                    <div class="product__item-title">
+                                        <h4 class="product__item-heading">Sữa Ichiban đậu nành & đậu đỏ & đậu xanh 350ml</h4>
+                                        <p class="product__item-unit">DTV: Hộp</p>
+                                        <div class="product__price">
+                                            <span class="product__price-gack">119.800đ</span>
+                                            <span class="product__price-action">110.000đ</span>
+                                        </div>
+                                        <button class="btn">Thêm vào giỏ</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="l-3 c-4 m-6">
+                                <a href="#" class="product__item">
+                                    <div class="product__item-img" style="background-image: url(../imgae/Sp_khuyenmai/sp3.jpg) ;"></div>
+                                    <div class="product__item-title">
+                                        <h4 class="product__item-heading">Sữa đậu nành Ichiban nguyên chất ít đường chai 350ml</h4>
+                                        <p class="product__item-unit">DTV: Hộp</p>
+                                        <div class="product__price">
+                                            <span class="product__price-gack">119.800đ</span>
+                                            <span class="product__price-action">110.000đ</span>
+                                        </div>
+                                        <button class="btn">Thêm vào giỏ</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="l-3 c-4 m-6">
+                                <a href="#" class="product__item">
+                                    <div class="product__item-img" style="background-image: url(../imgae/Sp_khuyenmai/sp4.jpg) ;"></div>
+                                    <div class="product__item-title">
+                                        <h4 class="product__item-heading">Sữa tươi nguyên kem tiệt trùng Lemontree Dairy hộ</h4>
+                                        <p class="product__item-unit">DTV: Hộp</p>
+                                        <div class="product__price">
+                                            <span class="product__price-gack">119.800đ</span>
+                                            <span class="product__price-action">110.000đ</span>
+                                        </div>
+                                        <button class="btn">Thêm vào giỏ</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="l-3 c-4 m-6">
+                                <a href="#" class="product__item">
+                                    <div class="product__item-img" style="background-image: url(../imgae/Sp_khuyenmai/sp5.jpg) ;"></div>
+                                    <div class="product__item-title">
+                                        <h4 class="product__item-heading">Sữa tươi nguyên kem tiệt trùng Lemontree Dairy hộ</h4>
+                                        <p class="product__item-unit">DTV: Hộp</p>
+                                        <div class="product__price">
+                                            <span class="product__price-gack">119.800đ</span>
+                                            <span class="product__price-action">110.000đ</span>
+                                        </div>
+                                        <button class="btn">Thêm vào giỏ</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="l-3 c-4 m-6">
+                                <a href="#" class="product__item">
+                                    <div class="product__item-img" style="background-image: url(../imgae/Sp_khuyenmai/sp6.jpg) ;"></div>
+                                    <div class="product__item-title">
+                                        <h4 class="product__item-heading">Dầu gội Head & Shoulders cho da đầu ngứa 625ml</h4>
+                                        <p class="product__item-unit">DTV: Hộp</p>
+                                        <div class="product__price">
+                                            <span class="product__price-gack">119.800đ</span>
+                                            <span class="product__price-action">110.000đ</span>
+                                        </div>
+                                        <button class="btn">Thêm vào giỏ</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="l-3 c-4 m-6">
+                                <a href="#" class="product__item">
+                                    <div class="product__item-img" style="background-image: url(../imgae/Sp_khuyenmai/sp7.jpg) ;"></div>
+                                    <div class="product__item-title">
+                                        <h4 class="product__item-heading">Xúc xích Vealz 3A CP gói 500g</h4>
+                                        <p class="product__item-unit">DTV: Hộp</p>
+                                        <div class="product__price">
+                                            <span class="product__price-gack">119.800đ</span>
+                                            <span class="product__price-action">110.000đ</span>
+                                        </div>
+                                        <button class="btn">Thêm vào giỏ</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="l-3 c-4 m-6">
+                                <a href="#" class="product__item">
+                                    <div class="product__item-img" style="background-image: url(../imgae/Sp_khuyenmai/sp8.jpg) ;"></div>
+                                    <div class="product__item-title">
+                                        <h4 class="product__item-heading">Nước mắm cá cơm Thuận Phát 40 độ đạm chai 620ml</h4>
+                                        <p class="product__item-unit">DTV: Hộp</p>
+                                        <div class="product__price">
+                                            <span class="product__price-gack">119.800đ</span>
+                                            <span class="product__price-action">110.000đ</span>
+                                        </div>
+                                        <button class="btn">Thêm vào giỏ</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="l-3 c-4 m-6">
+                                <a href="#" class="product__item">
+                                    <div class="product__item-img" style="background-image: url(../imgae/Sp_khuyenmai/sp9.jpg) ;"></div>
+                                    <div class="product__item-title">
+                                        <h4 class="product__item-heading">Tổ yến nguyên chất chưng sẵn vị hạt sen Yến Việt</h4>
+                                        <p class="product__item-unit">DTV: Hộp</p>
+                                        <div class="product__price">
+                                            <span class="product__price-gack">119.800đ</span>
+                                            <span class="product__price-action">110.000đ</span>
+                                        </div>
+                                        <button class="btn">Thêm vào giỏ</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="l-3 c-4 m-6">
+                                <a href="#" class="product__item">
+                                    <div class="product__item-img" style="background-image: url(../imgae/Sp_khuyenmai/sp10.jpg) ;"></div>
+                                    <div class="product__item-title">
+                                        <h4 class="product__item-heading">Sữa chua uống Dutch Lady lên men vị tự nhiên hộp 1L</h4>
+                                        <p class="product__item-unit">DTV: Hộp</p>
+                                        <div class="product__price">
+                                            <span class="product__price-gack">119.800đ</span>
+                                            <span class="product__price-action">110.000đ</span>
+                                        </div>
+                                        <button class="btn">Thêm vào giỏ</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="l-3 c-4 m-6">
+                                <a href="#" class="product__item">
+                                    <div class="product__item-img" style="background-image: url(../imgae/Sp_khuyenmai/sp11.jpg) ;"></div>
+                                    <div class="product__item-title">
+                                        <h4 class="product__item-heading">Táo Queen New Zealand PG size 90-120</h4>
+                                        <p class="product__item-unit">DTV: Hộp</p>
+                                        <div class="product__price">
+                                            <span class="product__price-gack">119.800đ</span>
+                                            <span class="product__price-action">110.000đ</span>
+                                        </div>
+                                        <button class="btn">Thêm vào giỏ</button>
+                                    </div>
+                                </a>
+                            </div>                           
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container__content">
+            <div class="grid wide">
+                <div class="row center">
+                    <div class="l-3">
+                        <div class="container__content-item">
+                            <img src="../imgae/162964655378716287682220181-1.png" alt="">
+                            <p>Sản phẩm khuyến mãi</p>
+                        </div>
+                    </div>
+                    <div class="l-3">
+                        <div class="container__content-item">
+                            <img src="../imgae/162964658411816287682628462-1.png" alt="">
+                            <p>Chất lượng cam kết</p>
+                        </div>
+                    </div>
+                    <div class="l-3">
+                        <div class="container__content-item">
+                            <img src="../imgae/162964661464516287682943943-1.png" alt="">
+                            <p>Dịch vụ vượt trội</p>
+                        </div>
+                    </div>
+                    <div class="l-3">
+                        <div class="container__content-item">
+                            <img src="../imgae/162964665580516292779811154-1.png" alt="">
+                            <p>giao hàng nhanh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3">
+                   <div class="footer__content">
+                        <img width="200px" src="./imgae/logo_2-1024x510.png" alt="">
+                        <p>Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp VinCommerce
+                            MSDN: 0104918404 do Sở Kế hoạch và Đầu tư TP. Hà Nội cấp lần đầu ngày 20/09/2010
+                            Đăng ký thay đổi lần thứ 42 do Sở Kế hoạch Đầu tư TP. Hồ Chí Minh ngày 13/02/2020
+                        </p>
+                   </div>
+                </div>
+                <div class="col l-3">
+                    <div class="footer__content">
+                        <ul class="footer__content-list">
+                            <h4>Về chúng tôi</h4>
+                            <li class="footer__content-list-item">Giới thiệu về VinMart</li>
+                            <li class="footer__content-list-item">Danh sách cửa hàng</li>
+                            <li class="footer__content-list-item">Quản lý chất lượng</li>
+                            <li class="footer__content-list-item">Điều khoản và điều khoản giao dịch</li>
+                            <li class="footer__content-list-item">Chính sách bảo mật và chia sẻ thông tin</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3">
+                    <div class="footer__content">
+                        <ul class="footer__content-list">
+                            <h4>Hỗ trợ khách hàng</h4>
+                            <li class="footer__content-list-item">Trung tâm hỗ trợ khách hàng</li>
+                            <li class="footer__content-list-item"> Chính sách thanh toán</li>
+                            <li class="footer__content-list-item">Chính sách giao hàng</li>
+                            <li class="footer__content-list-item">Chính sách đổi trả</li>
+                            <li class="footer__content-list-item">Chính sách chiếu khấu ưu đãi mua sắm</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3">
+                    <div class="footer__content">
+                        <ul class="footer__content-list">
+                            <h4>Chăm sóc khách hàng</h4>
+                            <li class="footer__content-list-item">Mua Online: 0247 1066866</li>
+                            <li class="footer__content-list-item">Email: cskh@winmart.masangroup.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__title">
+            <div class="grid wide">
+                <div class="row">
+                    <div class=" col l-3">
+                       <div class="footer__title-heading">
+                            <h4>Trụ sở chính</h4>
+                            <p>Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp VinCommerce Tầng 5, Mplaza SaiGon, 39 Lê Duẩn, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh, Việt Nam.</p>
+                       </div>
+                    </div>
+                    <div class=" col l-4">
+                       <div class="footer__title-heading">
+                            <h4>Địa chỉ giao dịch Tp.HCM:</h4>
+                            <p>Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp VinCommerce Tầng 5, Mplaza SaiGon, 39 Lê Duẩn, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh.</p>
+                       </div>
+                    </div>
+                    <div class=" col l-4">
+                        <div class="footer__title-heading">
+                            <h4>Địa chỉ giao dịch Hà Nội:</h4>
+                            <p>Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp VinCommerce Tower 1, Times City, 458 Minh Khai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Thành phố Hà Nội.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+     <!-- end footer -->
+    <div class="affter">
+        <div></div>
+        <div class="affter__icon">
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+    </div>
+    <!-- modal login -->
+    <div class="modal js-modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body js-modal__body">
+            <div class="modal__inner">
+                <div class="modal__inner-heading">
+                    <h3 class="modal__title">Đăng nhập</h3>
+                    <span class="modal__span">Đăng ký</span>
+                </div>
+                <form action="">
+                    <label for="">Tên tài khoản hoặc địa chỉ email*</label>
+                    <input type="text" required placeholder="Nhập tài khoản...">
+                    <label for="">Mật khẩu*</label>
+                    <input type="text" required placeholder="Nhập mật khẩu...">
+                    <button class="btn btn-full">Đăng nhập</button>
+                </form>
+                <div class="checkbox">
+                    <div class="checkbox__left">
+                        <input type="checkbox" name="" id="">
+                        <p>Ghi nhớ mật khẩu</p>
+                    </div>
+                    <span>Quên mật khẩu?</span>
+                </div>
+                <button class="btn-x">x</button>
+            </div>
+        </div>
+    </div>
+     <!--end modal login -->
+</body>
+</html>
