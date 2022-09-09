@@ -49,4 +49,9 @@ const scrollToTop = () => {
 
 
 
-
+const btn = document.querySelector(".btn")
+console.log(btn);
+btn.addEventListener("click", function(e) {
+    e.preventDefault()
+    e.stopPropagation()
+})
