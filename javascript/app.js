@@ -48,10 +48,12 @@ const scrollToTop = () => {
 };
 
 
+// ngăn chặn btn 
+const btn = document.querySelectorAll(".btn")
 
-const btn = document.querySelector(".btn")
-console.log(btn);
-btn.addEventListener("click", function(e) {
-    e.preventDefault()
-    e.stopPropagation()
+btn.forEach((item)=> {
+  item.addEventListener("click", function(event){
+    event.preventDefault()
+    event.stopPropagation()
+  })
 })
